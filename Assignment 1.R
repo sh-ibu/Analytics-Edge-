@@ -1,0 +1,6 @@
+complete =read.csv('songs.csv')
+table(complete$year==2010)
+table(complete$artistname=='Michael Jackson')
+str(complete)
+table(complete$artistname=='Michael Jackson' , complete$Top10)
+MichaelJackson = subset(complete,artistname='MichaelJackson')
